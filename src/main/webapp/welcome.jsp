@@ -10,7 +10,7 @@
     String favcol = request.getParameter("favcol");
 %>
 
-<body bgcolor = <%= favcol %>>
+<body>
 
     <%
     User user = new User(email, name, password, gender, favcol);
@@ -19,9 +19,9 @@
     <h1>
     Welcome, <%= name %>, good day! </br>
     Your Email is <%= email %>, have fun! </br>
-    Your password is <%= password %>.
-    Your gender is <%= gender %>.
-    Your favourite colour is <%= favcol %>.
+    Your password is <%= password %>. </br>
+    Your gender is <%= gender %>. </br>
+    Your favourite colour is <%= favcol %>. </br>
     Click <a href="userHome.jsp">here </a>to proceed to the main page. <br/>
     </h1>
 </body>

@@ -32,7 +32,8 @@ public class CreditCard {
             System.out.println("DateTimeParseException occurred");
             return false;
         }
-        return true;
+
+        return cvv.length() == 3;
     }
 
     public String getCardNumber() {
