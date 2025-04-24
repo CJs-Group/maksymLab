@@ -1,0 +1,1 @@
+insert into User values ('James Qu', 'test@t.com', '123456', 'male', 'blue');
