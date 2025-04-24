@@ -15,6 +15,19 @@ public class User {
         this.favouriteColour = favouriteColour;
     }
 
+
+    @Override
+    public String toString() {
+        return "{" +
+            " email='" + getEmail() + "'" +
+            ", name='" + getName() + "'" +
+            ", password='" + getPassword() + "'" +
+            ", gender='" + getGender() + "'" +
+            ", favouriteColour='" + getFavouriteColour() + "'" +
+            "}";
+    }
+    
+
     public String getEmail() {
         return email;
     }
